@@ -14,8 +14,8 @@ allprojects {
 dependencies {
     ...
     保持最新版
-    implementation 'com.github.yvws:QuickPlayer:+'
+    implementation 'com.github.yvws:QuickPlayerAndroid:+'
     或者指定具体版本
-    implementation 'com.github.yvws:QuickPlayer:1.0.1'
+	implementation 'com.github.yvws:QuickPlayerAndroid:1.0.1'
 }
 ```
