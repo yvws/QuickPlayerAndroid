@@ -1,5 +1,5 @@
-# 集成
-## 1. 在root's build.gradle中加入Jitpack仓库
+# integration
+## 1. Add the Jitpack repository in root's build.gradle
 ```
 allprojects {
     repositories {
@@ -9,13 +9,14 @@ allprojects {
 }
 ```
 
-## 2. 在app's build.gradle中添加依赖
+## 2. Add dependencies in app's build.gradle
 ```
 dependencies {
     ...
-    保持最新版
+    // Keep the latest version
     implementation 'com.github.yvws:QuickPlayerAndroid:+'
-    或者指定具体版本
-	implementation 'com.github.yvws:QuickPlayerAndroid:1.0.2'
+    
+    // Or specify a specific version
+	implementation 'com.github.yvws:QuickPlayerAndroid:1.0.3'
 }
 ```
