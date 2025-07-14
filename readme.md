@@ -17,6 +17,6 @@ dependencies {
     implementation 'com.github.yvws:QuickPlayerAndroid:+'
     
     // Or specify a specific version
-	implementation 'com.github.yvws:QuickPlayerAndroid:1.0.4'
+	implementation 'com.github.yvws:QuickPlayerAndroid:1.0.5'
 }
 ```
