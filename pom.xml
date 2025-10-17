@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.quick.player</groupId>
   <artifactId>QuickPlayer</artifactId>
-  <version>1.0.6</version>
+  <version>1.1.0</version>
   <packaging>aar</packaging>
   <build>
     <plugins>
@@ -43,12 +43,6 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.jenly1314</groupId>
-      <artifactId>libyuv</artifactId>
-      <version>1.0.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-javalite</artifactId>
       <version>4.28.2</version>
@@ -57,20 +51,44 @@
     <dependency>
       <groupId>androidx.media3</groupId>
       <artifactId>media3-exoplayer</artifactId>
-      <version>1.6.0</version>
+      <version>1.8.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.media3</groupId>
       <artifactId>media3-exoplayer-hls</artifactId>
-      <version>1.6.0</version>
+      <version>1.8.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.media3</groupId>
       <artifactId>media3-datasource-rtmp</artifactId>
-      <version>1.6.0</version>
+      <version>1.8.0</version>
       <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>io.antmedia</groupId>
+          <artifactId>rtmp-client</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.github.mcxinyu</groupId>
+      <artifactId>LibRtmp-Client-for-Android</artifactId>
+      <version>v3.2.0.m2</version>
+      <scope>runtime</scope>
+    </dependency>
+	<dependency>
+      <groupId>com.github.runningboys</groupId>
+      <artifactId>libyuv</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+	<dependency>
+      <groupId>com.github.yvws</groupId>
+      <artifactId>QuickBase</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
