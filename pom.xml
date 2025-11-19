@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.quick.player</groupId>
   <artifactId>QuickPlayer</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <packaging>aar</packaging>
   <build>
     <plugins>
@@ -87,7 +87,7 @@
 	<dependency>
       <groupId>com.github.yvws</groupId>
       <artifactId>QuickBase</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
